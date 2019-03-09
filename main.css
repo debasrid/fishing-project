@@ -1,0 +1,103 @@
+#container{  
+   margin: auto;
+    text-align: center;
+    width:1000px;
+    height:748px;
+}
+
+#splash-page{
+    margin:0 ;
+    object-fit: fill;
+    height:100%;
+    width:100%;    
+    background-image: url("./images/bg-front-new.jpg");
+    background-position: center ;
+   } 
+
+#score-page{
+    display:none; 
+    margin:0 ;
+    object-fit: fill;
+    height:100%;
+    width:100%;      
+    background-image: url("./images/bg-endpg.jpg");
+    background-position: center ;
+   } 
+
+#score-page :nth-child(3){
+    padding-top: 20px;
+    font-size: 28px;
+    color: white;
+}  
+
+#textbox{
+    margin-top: 250px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: rgb(238, 231, 231);
+    width: 280px;
+    height: 20px ;
+    font-style: italic;
+    color: grey;
+}
+
+#StartButton{
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(#94e664, #22ad1d);
+  border-radius: 5px;
+  padding: 15px 80px;
+  border-style: none;
+ 
+}
+
+#RestartButton{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(#f19c1b, #eb8f06);
+    border-radius: 5px;
+    padding: 15px 80px;
+    border-style: none;
+    margin-top: 50px;
+  }
+
+#game-div{
+    text-align:center;
+    height:100%;
+    width:100%;
+    margin:0 ;
+    display: none;
+}
+
+#canvas {
+    
+    background: white;
+    display: block;
+    margin: auto 0px;
+    }
+
+#canvas-boat {
+    display: block;
+    margin: -748px auto 0px;
+    }
+
+#canvas-fish {
+    display: block;
+    margin: -748px auto 0px;
+    }    
+
+#score{
+    margin-top: 300px;
+    font-weight: bold;
+    color: rgb(253, 253, 72);
+    font-size: 36px;
+}    
+
+#remarks{
+    font-size: 36px;
+    color: white;
+    padding-top: 200px;
+}

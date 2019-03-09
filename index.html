@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+
+  <script type="text/javascript" src="script2.js"></script>
+ 
+  <title>Fish-o-mania- a fishing game</title>
+</head>
+<body>
+  <div id="container">
+    <div id="splash-page">
+      <input id="textbox" type="text" placeholder="Your name" onfocus="this.placeholder=''" onblur="this.placeholder='Your name'"/><br>
+      <input id="StartButton" type="button" value="Let's start Fishing" />    
+  </div> 
+  <div id="game-div">
+    <audio src="./sounds/369920__mrthenoronha__cartoon-game-theme-loop.wav" id="bg_audio" loop="loop"></audio> 
+    <canvas id="canvas" width="1000" height="748"> </canvas> 
+    <canvas id="canvas-boat" width="1000" height="748"></canvas>
+    <canvas id="canvas-fish" width="1000" height="748"></canvas>
+  </div>
+  <div id="score-page">
+    <div id="remarks"></div>
+    <div id="starimage"></div>
+    <div> Your Scored : <span id="score"></span></div>
+    <input id="RestartButton" type="button" value="Play Again!" /> 
+  </div>
+
+</div>
+ 
+</body>
+
+</html>
